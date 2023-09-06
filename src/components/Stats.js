@@ -10,7 +10,7 @@ export default function Stats({ items }) {
       <em>
         {percentage === 100
           ? "You got everything ready to go !! 🚗🚗🚗"
-          : `💼 You have ${numItems} items on your list, and you already packed ${numItemsPacked} items. ${isNaN?0:percentage}%`}
+          : `💼 You have ${numItems} items on your list, and you already packed ${numItemsPacked} items. ${isNaN(percentage)?0:percentage}%`}
       </em>
     </footer>
   );
