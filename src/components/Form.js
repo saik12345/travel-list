@@ -25,8 +25,7 @@ export default function Form({ onAddItems }) {
           <option value={num} key={num}>
             {num}
           </option>
-        ))}
-          <span>Items </span>
+        ))}<span>Items </span>
       </select>
       <input
         type="text"
